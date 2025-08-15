@@ -138,30 +138,111 @@
         text-align: center;
         padding-top: 50px;
     }
-    .wrap{
+
+    .wrap {
         width: 100%;
         height: 550px;
         background-image: url('https://www.ubm-development.com/magazin/wp-content/uploads/2020/03/kl-main-building-d-Kopie.jpg');
         background-size: cover;
     }
-    .orange h1{
+
+    .orange h1 {
         color: white;
         font-size: 40px;
         margin-bottom: 50px;
     }
-    .imgPara{
+
+    .imgPara {
         display: flex;
         justify-content: space-evenly;
     }
-    .imgPara img{
+
+    .imgPara img {
         width: 45%;
         border: 4px solid white;
     }
+
     .imgPara p {
         width: 45%;
         text-align: justify;
         font-size: 18px;
         color: white;
+    }
+
+    .service {
+        height: 700px;
+        width: 100%;
+        display: flex;
+    }
+
+    .hardware {
+        width: 50%;
+        height: 700px;
+        background-color: #F0F0F0;
+
+        padding-top: 50px;
+        padding-left: 40px;
+    }
+
+    .hardware h1 {
+        margin-bottom: 30px;
+        font-size: 45px;
+    }
+
+    .hardware p {
+        padding: 5px;
+        font-size: 22px;
+    }
+
+    .hardware i {
+        color: orangered;
+        margin-right: 10px;
+    }
+
+    .software {
+        width: 50%;
+        height: 700px;
+        background-color: #E7E5E5;
+
+        padding-top: 50px;
+        padding-left: 40px;
+    }
+
+    .software h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+
+    .software img {
+        padding: 10px;
+    }
+
+    .team {
+        height: 800px;
+        width: 100%;
+
+        background-color: rgba(0, 0, 0, 0.808);
+        padding-top: 60px;
+    }
+
+    .wrap2 {
+        height: 800px;
+        width: 100%;
+
+        background-image: url('https://cdn.decorilla.com/online-decorating/wp-content/uploads/2020/12/Zoom-ready-home-office-backgrounds-by-Decorilla-1024x574.jpg?width=900');
+        background-size: cover;
+    }
+
+    .team h1 {
+        text-align: center;
+        color: white;
+        font-size: 45px;
+    }
+
+    .box {
+        height: 200px;
+        width: 200px;
+        margin: auto;
     }
 </style>
 
@@ -267,7 +348,110 @@
                 <h1>Why Royal Technosoft?</h1>
                 <div class="imgPara">
                     <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/accounting_img.jpg" alt="">
-                    <p>Royal Technosoft Pvt. Ltd. provides Global Software Solutions and their affiliated undertakings.  In India’s Ahmedabad, we have a software development team. Both the Gandhinagar branch and Surat where we are currently conducting business. Furthermore, our experts completed a number of government projects for India. Our goal is to comprehend the business goals of our clients and be seen as one of their most organizational aspects. Our primary goal is to create solutions to clients that are quick, simple, and low-effort. Process to ensure prompt response without compromising quality is something we always do.</p>
+                    <p>Royal Technosoft Pvt. Ltd. provides Global Software Solutions and their affiliated undertakings.
+                        In India’s Ahmedabad, we have a software development team. Both the Gandhinagar branch and Surat
+                        where we are currently conducting business. Furthermore, our experts completed a number of
+                        government projects for India. Our goal is to comprehend the business goals of our clients and
+                        be seen as one of their most organizational aspects. Our primary goal is to create solutions to
+                        clients that are quick, simple, and low-effort. Process to ensure prompt response without
+                        compromising quality is something we always do.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- wrap ending -->
+
+        <div class="service">
+            <div class="hardware">
+                <h1>List Services We Offer</h1>
+                <div class="list2">
+                    <p><i class="fa-solid fa-arrow-right"></i>Ethical Hacking</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For SQL</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For C#</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For Python</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For Ruby on Rails</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For Android</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For iPhone</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For Hadoop</p>
+                </div>
+            </div>
+
+            <div class="software">
+                <h1>Software We Work With</h1>
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/Ethical_Hacking.png" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/oracle-1.png" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/java.jpg" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/artificial_inteligence.png" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/Python.jpg" alt="">
+            </div>
+        </div>
+        <!-- service ends -->
+
+        <div class="wrap2">
+            <div class="team">
+                <h1>Meet The Team</h1>
+
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/team1.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/team2.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Alakh-Pandya.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Rahul-Kirpekar.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Samir-Vithlani.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Krishna-Shah.jpeg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Madhusudan-Soneji.jpeg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="box">
+                                <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Kamal-Soneji.jpeg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
