@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        height: 500px;
+        width: 100%;
+        background-color: teal;
+        border-radius: 20px;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo{
+        width: 30%;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .para{
+        width: 65%;
+        font-size: 18px;
+        color: white;
+    }
+
+
+    @media (max-width: 500px){
+        .main{
+            background-color: red;
+
+            display: block;
+            height: auto;
+            padding: 10px;
+        }
+        .logo{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .logo img{
+            border-radius: 40px;
+        }
+        .para{
+            width: 100%;
+            text-align: justify;
+        }
+    }
+
+    @media(min-width:501px) and (max-width: 900px){
+        .main{
+            background-color: blue;
+            height: 100%;
+            padding: 20px;
+        }
+        .logo{
+            width: 45%;
+        }
+        .para{
+            width: 50%;
+            text-align: justify;
+            font-size: 16px;
+        }
+    }
+
+    @media(min-width: 900px){
+        .main{
+            background-color: green;
+        }
+        .para{
+            text-align: justify;
+        }
+        .logo img{
+            border: 4px dotted white;
+            border-radius: 50%;
+        }
+    }
+
+
+</style>
+<body>
+
+    <!-- media queery  : page responsive-->
+
+
+    <div class="main">
+        <div class="logo">
+            <img src="https://pbs.twimg.com/profile_images/968380843906527233/26WKEI9O_400x400.jpg" alt="">
+        </div>
+        <div class="para">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolore ex similique obcaecati nulla odit sequi, dolorem modi laudantium quasi quaerat cum. Earum quis qui numquam officia saepe laborum, alias autem ex odit voluptatum beatae ipsam eveniet omnis itaque, minus molestiae facere, nihil fugit? Earum, iure placeat! Labore modi, quibusdam et maiores nesciunt pariatur a molestias assumenda inventore ab reiciendis voluptates ea incidunt totam praesentium. Sequi, velit voluptate error qui autem cupiditate impedit. Facilis iste, natus sed quo nam adipisci accusamus quibusdam in placeat, facere nulla eum inventore laboriosam consectetur rerum, a perspiciatis? Nam maxime dolorem similique iste nemo quisquam optio qui minus harum magni, labore modi possimus ipsam deserunt quia dicta. Minus, incidunt. Fuga magnam omnis voluptates vitae dolorem aspernatur odio atque vero ipsa consequuntur corporis ea deleniti quidem recusandae esse quam perspiciatis, voluptatem modi quae ex repellendus mollitia inventore eius! Aspernatur molestiae, dolor enim ex voluptatibus optio doloribus molestias labore. Explicabo eaque dolorem optio ipsam ex repudiandae, beatae odit itaque debitis quaerat ipsa quod cum facilis cumque nulla iste vero accusantium asperiores ullam! Et, porro alias at doloremque veniam asperiores natus placeat laboriosam laudantium non quos, tenetur adipisci eveniet molestias ea fuga enim officiis atque quibusdam aspernatur quidem.
+        </div>
+    </div>
+    
+</body>
+</html>
