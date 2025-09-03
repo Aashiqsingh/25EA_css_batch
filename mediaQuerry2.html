@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main{
+        height: 500px;
+        width: 100%;
+        background-color: gray;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .img{
+        width: 30%;
+    }
+    .img img{
+        width: 100%;
+    }
+    .para{
+        width: 65%;
+        font-size: 20px;
+        color: white;
+    }
+
+
+    @media (max-width: 500px){
+        .main{
+            background-color: red;
+            display: block;
+            height: auto;
+            padding: 10px;
+        }
+        .img{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .img img{
+            border-radius: 30px;
+        }
+        .para{
+            width: 100%;
+            text-align: justify;
+        }
+    }
+
+
+    @media(min-width:500px) and (max-width: 900px){
+        .main{
+            background-color: blue;
+            padding: 10px;
+            height: auto;
+        }
+        .para{
+            text-align: justify;
+        }
+        .img img{
+            border: 5px double white;
+        }
+    }
+
+
+    @media (min-width: 900px){
+        .main{
+            background-color: green;
+            height: 100%;
+            padding: 10px;
+        }
+        .img{
+            width: 45%;
+        }
+        .img img{
+            border-radius: 50%;
+            border: 4px dotted white;
+            height: 50%;
+            width: 50%;
+        }
+        .para{
+            width: 50%;
+            text-align: justify;
+        }
+    }
+
+
+
+</style>
+<body>
+
+    <!-- media querry : page responsive -->
+
+
+    <div class="main">
+        <div class="img">
+            <img src="https://pbs.twimg.com/profile_images/968380843906527233/26WKEI9O_400x400.jpg" alt="">
+        </div>
+        <div class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut magnam qui perferendis a reiciendis repellat provident assumenda at iure nisi. Amet magnam dignissimos adipisci modi quaerat. Voluptatem blanditiis repellendus earum laboriosam amet labore tempore quam dolor totam temporibus itaque exercitationem reprehenderit iste, eveniet assumenda perferendis. Quis temporibus vero corporis numquam nisi nesciunt aperiam non rem sapiente dicta! At voluptate tenetur dicta aliquam nostrum sint soluta, cum natus voluptatibus. Officiis dolorum nulla dolores, suscipit similique asperiores aspernatur quis officia quibusdam ea reiciendis expedita vel ratione ex voluptates temporibus, porro molestiae quas omnis laboriosam ut adipisci nemo beatae. Fugiat voluptatem et facere asperiores incidunt quia perferendis sed reiciendis accusantium similique maiores architecto perspiciatis, quam molestiae suscipit ad optio libero odio necessitatibus explicabo sequi rerum? Alias et corporis autem accusantium excepturi. Iste dolor voluptatem esse molestias atque cumque corporis inventore alias, excepturi officiis, deleniti necessitatibus repellendus et exercitationem? Iusto rerum aliquam fugiat! Voluptatem reiciendis dicta, blanditiis animi iure earum magni ad, error obcaecati possimus voluptatibus culpa. Blanditiis ea ad necessitatibus animi vel sed, incidunt dicta iure delectus accusantium rerum molestias maxime laudantium eius voluptas sunt dolorum adipisci a possimus nesciunt earum quae enim. Natus nulla voluptatibus blanditiis? Recusandae consequatur repudiandae distinctio explicabo reiciendis!
+        </div>
+    </div>
+    
+</body>
+</html>
